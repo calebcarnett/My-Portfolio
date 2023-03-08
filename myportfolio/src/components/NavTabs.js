@@ -31,7 +31,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Ternary operater is checking if the current page is the the blog page, if it is on the blog it will make the nav-link active
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Blog
+          Resume
         </a>
       </li>
       <li className="nav-item">
