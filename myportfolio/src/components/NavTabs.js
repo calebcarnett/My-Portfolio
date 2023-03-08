@@ -10,34 +10,26 @@ function NavTabs({ currentPage, handlePageChange }) {
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-            // Ternary operater is checking if the current page is the home page, if it is on the blog it will make the nav-link active
-            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-          >
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#about"
+            href="#AboutMe"
             onClick={() => handlePageChange("AboutMe")}
-            // Ternary operater is checking if the current page is the about -age, if it is on the blog it will make the nav-link active
-            className={currentPage === "About" ? "nav-link active" : "nav-link"}
-          >
-            About
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#resume"
-            onClick={() => handlePageChange("Resume")}
-            // Ternary operater is checking if the current page is the the blog page, if it is on the blog it will make the nav-link active
+            // Ternary operater is checking if the current page is the About me page, if it is on the blog it will make the nav-link active
             className={
-              currentPage === "Resume" ? "nav-link active" : "nav-link"
+              currentPage === "AboutMe" ? "nav-link active" : "nav-link"
             }
           >
-            Resume
+            About Me
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#Portfolio"
+            onClick={() => handlePageChange("Portfolio")}
+            // Ternary operater is checking if the current page is the portfolio page, if it is on the blog it will make the nav-link active
+            className={
+              currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            }
+          >
+            Portfolio
           </a>
         </li>
         <li className="nav-item">
@@ -50,6 +42,18 @@ function NavTabs({ currentPage, handlePageChange }) {
             }
           >
             Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handlePageChange("Resume")}
+            // Ternary operater is checking if the current page is the the blog page, if it is on the blog it will make the nav-link active
+            className={
+              currentPage === "Resume" ? "nav-link active" : "nav-link"
+            }
+          >
+            Resume
           </a>
         </li>
       </ul>
