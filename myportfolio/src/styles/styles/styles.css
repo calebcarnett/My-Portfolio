@@ -4,11 +4,11 @@
   .cloud {
     animation-name: animate;
     animation-duration: 120s;
-    height: 7vw;
-    width: 20vw;
+    height: 3.5vw;
+    width: 10vw;
     background: rgb(255, 251, 251);
     border-radius: 40vw;
-    border: 5px solid rgba(250, 246, 246, 0.954);
+    border: 3px solid rgb(236, 234, 234);
     position: absolute;
     margin-top: 3vw;
   }
@@ -16,26 +16,26 @@
 .cloud:before {
         content: "";
         position: absolute;
-        top: -3vw;
+        top: -1vw;
         box-sizing: border-box;
-        height: 5vw;
-        width: 5vw;
-        left: 3vw;
+        height: 2.5vw;
+        width: 2.5vw;
+        left: 1vw;
         border-radius: 50%;
-        border: 5px solid rgba(255, 249, 249, 0.954);
+        border: 3px solid rgba(255, 249, 249, 0.954);
         background: rgb(255, 251, 251);
         transform: rotate(40deg);
   }
  .cloud:after {
     content: "";
     position: absolute;
-    height: 10vw;
-    width: 10vw;
-    top: -5vw;
-    left: 7vw;
+    height: 5vw;
+    width: 5vw;
+    top: -2.5vw;
+    left: 3vw;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 5px solid rgba(255, 254, 254, 0.954);
+    border: 3px solid rgb(236, 234, 234);
     border-bottom-color: transparent;
     background: rgb(255, 251, 251);
     border-right-color: transparent;
@@ -43,43 +43,40 @@
   }
   
   .cloud2:before {
-
     content: "";
     position: absolute;
-    top: -3vw;
+    top: -1vw;
     box-sizing: border-box;
-    height: 5vw;
-    width: 5vw;
-    left: 3vw;
+    height: 2.5vw;
+    width: 2.5vw;
+    left: 1vw;
     border-radius: 50%;
-    /* border: 5px solid rgb(211, 202, 202); */
+    border: 3px solid rgba(255, 249, 249, 0.954);
     background: rgb(255, 251, 251);
     transform: rotate(40deg);
 }
 
 .cloud2 {
-
     animation-name: animate2;
-    animation-duration: 80s;
-    height: 7vw;
-    width: 20vw;
+    animation-duration: 100s;
+    height: 3.5vw;
+    width: 10vw;
     background: rgb(255, 251, 251);
     border-radius: 40vw;
-    /* border: 5px solid rgb(211, 202, 202); */
+    border: 2px solid rgb(236, 234, 234);
     position: absolute;
-    margin-top: 14vw;
+    margin-top: 10vw;
   }
   .cloud2:after {
-
     content: "";
     position: absolute;
-    height: 10vw;
-    width: 10vw;
-    top: -5vw;
-    left: 7vw;
+    height: 5vw;
+    width: 5vw;
+    top: -2.5vw;
+    left: 3vw;
     border-radius: 50%;
     box-sizing: border-box;
-    /* border: 5px solid rgb(227, 215, 215); */
+    border: 2px solid rgb(236, 234, 234);
     border-bottom-color: transparent;
     background: rgb(255, 251, 251);
     border-right-color: transparent;
@@ -87,14 +84,14 @@
   }
 
   @keyframes animate {
-    from {transform: translateX(100%);}
-    to {transform: translateX(380%);}
+    from {transform: translateX(220%);}
+    to {transform: translateX(1000%);}
   }
 
   
   @keyframes animate2 {
-    from {transform: translateX(200%);}
-    to {transform: translateX(380%);}
+    from {transform: translateX(400%);}
+    to {transform: translateX(1000%);}
   }
 
   /* .mountain {
@@ -107,7 +104,7 @@
   }
    */
   .navigation {
-  background-color: rgb(12, 65, 97);
+  background-color: rgb(70, 89, 108);
   }
   html{
     background-color: rgb(190, 214, 236);

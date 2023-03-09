@@ -13,14 +13,16 @@ const styles = {
   name: {
     color: "#000065",
     fontSize: "50px",
-    fontFamily: "cursive",
+    fontFamily: "Arial",
+    fontWeight: "bold",
   },
   description: {
-    paddingTop: "25px",
+    paddingTop: "15px",
     paddingRight: "30px",
     color: "#000075",
     fontSize: "14px",
-    fontFamily: "Lucida Console",
+    fontFamily: "Arial",
+    fontWeight: "bold",
   },
 };
 
@@ -31,9 +33,9 @@ export default function Home() {
       <div className="cloud"></div>
       <div className="cloud2"></div>
       <div style={styles.main}>
-        <h1 style={styles.name}>I'm Caleb</h1>
-        <p style={styles.description}>a Full Stack Developer.</p>
-        <img className="skyline" />
+        <h1 style={styles.name}>Caleb Carnett</h1>
+        <p style={styles.description}>Full Stack Developer.</p>
+        <img className="skyline" alt="skyline" />
       </div>
     </div>
   );

@@ -5,11 +5,22 @@ const styles = {
   main: {
     display: "flex",
     justifyContent: "center",
-    padding: "20px",
+    padding: "10px",
     flexDirection: "row",
   },
   item: {
-    padding: "5px",
+    paddingLeft: "18px",
+    paddingRight: "18px",
+  },
+  navbar: {
+    backgroundColor: "white",
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "row",
+    borderRadius: "50px",
+    paddingLeft: "20px",
+    paddingRight: "20px",
+    color: "white",
   },
 };
 
@@ -32,8 +43,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </div>
       <nav className="navbar" style={styles.main}>
-        <ul className="navbar-nav" style={styles.main}>
-          <li className="nav-item" style={styles.item}>
+        <ul className="navbar-nav" style={styles.navbar}>
+          <li style={styles.item}>
             <a
               href="#AboutMe"
               onClick={() => handlePageChange("AboutMe")}
