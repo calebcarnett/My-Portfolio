@@ -3,11 +3,21 @@ import React from "react";
 // because the portfolioContainer is exported
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div>
         <h1>Caleb Carnett</h1>
       </div>
       <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <a
+            href="#Home"
+            onClick={() => handlePageChange("Home")}
+            // Ternary operater is checking if the current page is the Home page, if it is on the blog it will make the nav-link active
+            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          >
+            Home
+          </a>
+        </li>
         <li className="nav-item">
           <a
             href="#AboutMe"
@@ -57,7 +67,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
 
