@@ -26,11 +26,14 @@ const styles = {
 
 export default function Home() {
   return (
-    <div>
+    <div className="homeanimation">
+      <div className="mountain"></div>
       <div className="cloud"></div>
+      <div className="cloud2"></div>
       <div style={styles.main}>
         <h1 style={styles.name}>I'm Caleb</h1>
         <p style={styles.description}>a Full Stack Developer.</p>
+        <img className="skyline" />
       </div>
     </div>
   );

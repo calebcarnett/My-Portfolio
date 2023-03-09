@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/styles/styles.css";
 
 const styles = {
   main: {
@@ -15,7 +16,7 @@ const styles = {
 // because the portfolioContainer is exported
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <div className="navigation">
       <div>
         <a
           href="#Home"
