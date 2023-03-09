@@ -1,24 +1,31 @@
 import React from "react";
 
+const styles = {
+  main: {
+    display: "flex",
+    justifyContent: "center",
+  },
+};
+
 // because the portfolioContainer is exported
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div>
-        <a
-          href="#Home"
-          onClick={() => handlePageChange("Home")}
-          // Ternary operater is checking if the current page is the Home page, if it is on the blog it will make the nav-link active
-          className={currentPage === "Home" ? "nav-link active" : "nav-link"}
-        >
-          {/* <img
+    <div style={styles.main}>
+      <nav className="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
+        <div>
+          <a
+            href="#Home"
+            onClick={() => handlePageChange("Home")}
+            // Ternary operater is checking if the current page is the Home page, if it is on the blog it will make the nav-link active
+            className={currentPage === "Home" ? "nav-link active" : "nav-link"}
+          >
+            {/* <img
             src={require("../../src/styles/images/headshot.jpg")}
             className="img-fluid mw-300"
             alt="Responsive image"
           /> */}
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          </a>
+        </div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <a
@@ -69,8 +76,8 @@ function NavTabs({ currentPage, handlePageChange }) {
             </a>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </div>
   );
 }
 
