@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/styles/styles.css";
 
 const styles = {
   main: {
@@ -7,7 +8,7 @@ const styles = {
     flexDirection: "column",
     alignItems: "center",
     verticalAlign: "center",
-    transform: "translateY(100%)",
+    transform: "translateY(60%)",
   },
   name: {
     color: "#000065",
@@ -25,9 +26,12 @@ const styles = {
 
 export default function Home() {
   return (
-    <div style={styles.main}>
-      <h1 style={styles.name}>I'm Caleb</h1>
-      <p style={styles.description}>a Full Stack Developer.</p>
+    <div>
+      <div className="cloud"></div>
+      <div style={styles.main}>
+        <h1 style={styles.name}>I'm Caleb</h1>
+        <p style={styles.description}>a Full Stack Developer.</p>
+      </div>
     </div>
   );
 }

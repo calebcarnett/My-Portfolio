@@ -1,0 +1,49 @@
+
+  /* The element to apply the animation to */
+
+  .cloud {
+    animation-name: animate;
+    animation-duration: 70s;
+    height: 7vw;
+    width: 20vw;
+    background: rgb(235, 234, 234);
+    border-radius: 40vw;
+    border: 5px solid rgba(227, 226, 226, 0.954);
+    position: relative;
+    margin-top: 3vw;
+
+  }
+  .cloud:before {
+    content: "";
+    position: absolute;
+    top: -3vw;
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    left: 3vw;
+    border-radius: 50%;
+    border: 5px solid rgba(227, 226, 226, 0.954);
+ 
+    background: rgb(235, 234, 234);
+    transform: rotate(40deg);
+  }
+  .cloud:after {
+    content: "";
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    top: -5vw;
+    left: 7vw;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 5px solid rgba(227, 226, 226, 0.954);
+    border-bottom-color: transparent;
+    background: rgb(235, 234, 234);
+    border-right-color: transparent;
+    transform: rotate(55deg);
+  }
+
+  @keyframes animate {
+    from {transform: translateX(20%);}
+    to {transform: translateX(380%);}
+  }
