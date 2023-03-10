@@ -94,18 +94,18 @@
     to {transform: translateX(1000%);}
   }
 
-
-  html{
-    background-color: #EAF4F4;
-  }
   .homeanimation {
   background-color: #EAF4F4;
   }
 
+  body {
+    background-color: #EAF4F4;
+}
+
   .profile-photo {
     border: solid 1px #EAF4F4;
     margin: 10px;
-    width:5vh;
+    width:8vh;
     border-radius: 50%;
     content: url(../images/headshot.jpg);
     transition: transform .4s;
@@ -122,7 +122,24 @@
   .nav-item:hover {
     transform: scale(1.2); 
   }
+  
 
   .custom-navbar .navbar-collapse {
     background-color: transparent;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin-right: 10px;
+  }s
+
+  .main-container {
+    min-height: calc(100vh - 80px); /* 80px is the height of the navbar */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+  background-color:black;
+  height: 20vh;
+  color: white;
   }
