@@ -98,12 +98,7 @@
     to {transform: translateX(1000%);}
   }
 
-  .navigation {
-  display: flex;
-  background-color: #EAF4F4;
-  flex-direction: row;
-  align-items: center;
-  }
+
   html{
     background-color: #EAF4F4;
   }
@@ -118,7 +113,6 @@
     border-radius: 50%;
     content: url(../images/headshot.jpg);
     transition: transform .4s;
- 
 
   }
   
@@ -143,3 +137,21 @@
     padding: 10px;
     flex-direction: row;
   }
+
+  .navigation-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+  .navigation-bar {
+    list-style-type: none;
+    padding: 5px;
+  }
+
+  .navigation {
+    display: flex;
+    background-color: #EAF4F4;
+    flex-direction: row;
+    align-items: center;
+    }
