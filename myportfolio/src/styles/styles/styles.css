@@ -1,9 +1,5 @@
 
   /* The element to apply the animation to */
-* {
-  font-family: Montserrat,
-}
-
 
   .cloud {
     animation-name: animate;
@@ -109,7 +105,7 @@
   .profile-photo {
     border: solid 1px #EAF4F4;
     margin: 10px;
-    width:7vh;
+    width:5vh;
     border-radius: 50%;
     content: url(../images/headshot.jpg);
     transition: transform .4s;
@@ -119,39 +115,14 @@
   .profile-photo:hover {
     transform: scale(1.2); 
   }
- 
-  .nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    border-radius: 50px;
 
+  .nav-item {
+    transition: transform .4s;
+  }
+  .nav-item:hover {
+    transform: scale(1.2); 
   }
 
-  .item {
-    padding-left: 18px;
-    padding-right: 18px;
+  .custom-navbar .navbar-collapse {
+    background-color: transparent;
   }
-  .main {
-    justify-content: center;
-    padding: 10px;
-    flex-direction: row;
-  }
-
-  .navigation-bar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-  .navigation-bar {
-    list-style-type: none;
-    padding: 5px;
-  }
-
-  .navigation {
-    display: flex;
-    background-color: #EAF4F4;
-    flex-direction: row;
-    align-items: center;
-    }
