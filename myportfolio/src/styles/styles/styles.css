@@ -1,9 +1,13 @@
 
   /* The element to apply the animation to */
+* {
+  font-family: Montserrat,
+}
+
 
   .cloud {
     animation-name: animate;
-    animation-duration: 120s;
+    animation-duration: 90s;
     height: 3.5vw;
     width: 10vw;
     background: rgb(255, 251, 251);
@@ -58,7 +62,7 @@
 
 .cloud2 {
     animation-name: animate2;
-    animation-duration: 100s;
+    animation-duration: 60s;
     height: 3.5vw;
     width: 10vw;
     background: rgb(255, 251, 251);
@@ -94,30 +98,48 @@
     to {transform: translateX(1000%);}
   }
 
-  /* .mountain {
-    position: absolute;
-    width: 500px;
-    height: 600px;
-    left: 45vw;
-    background: rgb(126, 120, 120);
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-  }
-   */
   .navigation {
-  background-color: rgb(70, 89, 108);
+  display: flex;
+  background-color: #EAF4F4;
+  flex-direction: row;
+  align-items: center;
   }
   html{
-    background-color: rgb(190, 214, 236);
+    background-color: #EAF4F4;
   }
   .homeanimation {
-  background-color: rgb(190, 214, 236);
+  background-color: #EAF4F4;
   }
 
-  .skyline {
-    top: 15vh;
-    width:150vh;
-    position: absolute;
-    content: url(../images/skyline-washington-dc.png)
+  .profile-photo {
+    border: solid 1px #EAF4F4;
+    margin: 10px;
+    width:7vh;
+    border-radius: 50%;
+    content: url(../images/headshot.jpg);
+    transition: transform .4s;
+ 
+
   }
   
+  .profile-photo:hover {
+    transform: scale(1.2); 
+  }
  
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 50px;
+
+  }
+
+  .item {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .main {
+    justify-content: center;
+    padding: 10px;
+    flex-direction: row;
+  }

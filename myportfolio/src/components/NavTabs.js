@@ -1,29 +1,6 @@
 import React from "react";
 import "../styles/styles/styles.css";
 
-const styles = {
-  main: {
-    display: "flex",
-    justifyContent: "center",
-    padding: "10px",
-    flexDirection: "row",
-  },
-  item: {
-    paddingLeft: "18px",
-    paddingRight: "18px",
-  },
-  navbar: {
-    backgroundColor: "white",
-    display: "flex",
-    justifyContent: "center",
-    flexDirection: "row",
-    borderRadius: "50px",
-    paddingLeft: "20px",
-    paddingRight: "20px",
-    color: "white",
-  },
-};
-
 // because the portfolioContainer is exported
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -35,16 +12,12 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Ternary operater is checking if the current page is the Home page, if it is on the blog it will make the nav-link active
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          {/* <img
-            src={require("../../src/styles/images/headshot.jpg")}
-            className="img-fluid mw-300"
-            alt="Responsive image"
-          /> */}
+          <img className="profile-photo" />
         </a>
       </div>
-      <nav className="navbar" style={styles.main}>
-        <ul className="navbar-nav" style={styles.navbar}>
-          <li style={styles.item}>
+      <nav className="navbar">
+        <ul className="navbar-nav">
+          <li className="item">
             <a
               href="#AboutMe"
               onClick={() => handlePageChange("AboutMe")}
@@ -53,10 +26,10 @@ function NavTabs({ currentPage, handlePageChange }) {
                 currentPage === "AboutMe" ? "nav-link active" : "nav-link"
               }
             >
-              About Me
+              About
             </a>
           </li>
-          <li className="nav-item" style={styles.item}>
+          <li className="nav-item">
             <a
               href="#Portfolio"
               onClick={() => handlePageChange("Portfolio")}
@@ -68,7 +41,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </li>
-          <li className="nav-item" style={styles.item}>
+          <li className="nav-item">
             <a
               href="#contact"
               // Ternary operater is checking if the current page is the the contact page, if it is on the blog it will make the nav-link active
@@ -80,7 +53,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li className="nav-item" style={styles.item}>
+          <li className="nav-item">
             <a
               href="#resume"
               onClick={() => handlePageChange("Resume")}

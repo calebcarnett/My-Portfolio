@@ -9,14 +9,17 @@ const styles = {
     alignItems: "center",
     verticalAlign: "center",
     transform: "translateY(60%)",
+    fontFamily: "Montserrat",
   },
   name: {
+    fontFamily: "Montserrat",
     color: "#000065",
     fontSize: "50px",
     fontFamily: "Arial",
     fontWeight: "bold",
   },
   description: {
+    fontFamily: "Montserrat",
     paddingTop: "15px",
     paddingRight: "30px",
     color: "#000075",
@@ -35,7 +38,6 @@ export default function Home() {
       <div style={styles.main}>
         <h1 style={styles.name}>Caleb Carnett</h1>
         <p style={styles.description}>Full Stack Developer.</p>
-        <img className="skyline" alt="skyline" />
       </div>
     </div>
   );
