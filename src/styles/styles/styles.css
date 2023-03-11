@@ -94,18 +94,14 @@
     to {transform: translateX(1000%);}
   }
 
-  .homeanimation {
+  /* .homeanimation {
   background-color: #EAF4F4;
-  }
-
-  body {
-    background-color:green;
-}
+  } */
 
   .profile-photo {
     border: solid 1px #EAF4F4;
     margin: 10px;
-    width:8vh;
+    width:40vh;
     border-radius: 50%;
     content: url(../images/headshot.jpg);
     transition: transform .4s;
@@ -113,11 +109,12 @@
   }
   
   .profile-photo:hover {
-    transform: scale(1.2); 
+    transform: scale(1.04); 
   }
 
   .nav-item {
     transition: transform .4s;
+    font-size: 20px;
   }
   .nav-item:hover {
     transform: scale(1.2); 
@@ -130,7 +127,7 @@
     justify-content: end;
     text-align: center;
     margin-right: 10px;
-  }s
+  }
 
   .main-container {
     min-height: calc(100vh - 80px); /* 80px is the height of the navbar */
@@ -138,8 +135,25 @@
     flex-direction: column;
   }
   
-  /* footer {
-  background-color:black;
-  height: 20vh;
-  color: white;
-  } */
+ .main {
+  display: flex;
+  margin-top: 150px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .about-section {
+  display: flex;
+  flex-direction: column;
+  
+}
+.first-name {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: transform .8s;
+}
+
+.first-name:hover {
+  transform: scale(1.04); 
+}

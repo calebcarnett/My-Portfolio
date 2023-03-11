@@ -6,11 +6,11 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
       <a
-        href="#Home"
-        onClick={() => handlePageChange("Home")}
+        href="#AboutMe"
+        onClick={() => handlePageChange("AboutMe")}
         className={currentPage === "Home" ? "nav-link active" : "nav-link"}
       >
-        <img className="profile-photo" />
+        <p className="first-name">Caleb Carnett</p>
       </a>
       <button
         className="navbar-toggler"
