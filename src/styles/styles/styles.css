@@ -146,7 +146,7 @@
  .about-section {
   display: flex;
   flex-direction: column;
-  
+  color: white;
 }
 .first-name {
   font-size: 25px;
@@ -156,4 +156,13 @@
 
 .first-name:hover {
   transform: scale(1.04); 
+}
+
+.bg {
+margin-left: auto;
+margin-right: auto;
+background: url("../images/unnamed.jpg");
+background-position: left;
+background-position:75%;
+
 }
