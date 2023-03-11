@@ -1,5 +1,6 @@
 import React from "react";
-// import Footer from "./components/Footer";
+import "../src/styles/styles/styles.css";
+
 import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
