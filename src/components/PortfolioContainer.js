@@ -4,16 +4,12 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import Home from "./pages/Home";
-import Footer from "./pages/Footer";
+import Footer from "./elements/Footer";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }

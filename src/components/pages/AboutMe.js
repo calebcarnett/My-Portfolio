@@ -3,7 +3,15 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div>
-      <h1>About Me</h1>
+      <div className="homeanimation">
+        <div className="mountain"></div>
+        <div className="cloud"></div>
+        <div className="cloud2"></div>
+        <div className="main">
+          <h1>Caleb Carnett</h1>
+          <p className="description">Full Stack Developer.</p>
+        </div>
+      </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
