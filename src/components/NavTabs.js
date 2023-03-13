@@ -4,7 +4,7 @@ import "../styles/styles/styles.css";
 // because the portfolioContainer is exported
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+    <nav className="navbar navbar-expand-lg custom-navbar">
       <a
         href="#AboutMe"
         onClick={() => handlePageChange("AboutMe")}

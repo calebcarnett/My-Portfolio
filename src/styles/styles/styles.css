@@ -1,105 +1,11 @@
 
   /* The element to apply the animation to */
 
-  .cloud {
-    animation-name: animate;
-    animation-duration: 90s;
-    height: 3.5vw;
-    width: 10vw;
-    background: rgb(255, 251, 251);
-    border-radius: 40vw;
-    border: 3px solid rgb(236, 234, 234);
-    position: absolute;
-    margin-top: 3vw;
-  }
-  
-.cloud:before {
-        content: "";
-        position: absolute;
-        top: -1vw;
-        box-sizing: border-box;
-        height: 2.5vw;
-        width: 2.5vw;
-        left: 1vw;
-        border-radius: 50%;
-        border: 3px solid rgba(255, 249, 249, 0.954);
-        background: rgb(255, 251, 251);
-        transform: rotate(40deg);
-  }
- .cloud:after {
-    content: "";
-    position: absolute;
-    height: 5vw;
-    width: 5vw;
-    top: -2.5vw;
-    left: 3vw;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 3px solid rgb(236, 234, 234);
-    border-bottom-color: transparent;
-    background: rgb(255, 251, 251);
-    border-right-color: transparent;
-    transform: rotate(55deg);
-  }
-  
-  .cloud2:before {
-    content: "";
-    position: absolute;
-    top: -1vw;
-    box-sizing: border-box;
-    height: 2.5vw;
-    width: 2.5vw;
-    left: 1vw;
-    border-radius: 50%;
-    border: 3px solid rgba(255, 249, 249, 0.954);
-    background: rgb(255, 251, 251);
-    transform: rotate(40deg);
-}
-
-.cloud2 {
-    animation-name: animate2;
-    animation-duration: 60s;
-    height: 3.5vw;
-    width: 10vw;
-    background: rgb(255, 251, 251);
-    border-radius: 40vw;
-    border: 2px solid rgb(236, 234, 234);
-    position: absolute;
-    margin-top: 10vw;
-  }
-  .cloud2:after {
-    content: "";
-    position: absolute;
-    height: 5vw;
-    width: 5vw;
-    top: -2.5vw;
-    left: 3vw;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 2px solid rgb(236, 234, 234);
-    border-bottom-color: transparent;
-    background: rgb(255, 251, 251);
-    border-right-color: transparent;
-    transform: rotate(55deg);
-  }
-
-  @keyframes animate {
-    from {transform: translateX(220%);}
-    to {transform: translateX(1000%);}
-  }
+  html, body { height: 100% }
 
   
-  @keyframes animate2 {
-    from {transform: translateX(400%);}
-    to {transform: translateX(1000%);}
-  }
-
-  /* .homeanimation {
-  background-color: #EAF4F4;
-  } */
 
   .profile-photo {
-    border: solid 1px #EAF4F4;
     margin: 10px;
     width:40vh;
     border-radius: 50%;
@@ -107,26 +13,30 @@
     transition: transform .4s;
 
   }
+
+  .signature{
+    margin: 0px;
+    width: 30vh;
+    border-radius: 50%;
+    content: url(../images/signature.png);
+    transition: transform .4s;
+
+  }
+  .signature:hover {
+    transform: scale(1.1); 
+  }
   
   .profile-photo:hover {
     transform: scale(1.04); 
   }
 
-  .nav-item {
-    transition: transform .4s;
-    font-size: 20px;
-  }
-  .nav-item:hover {
-    transform: scale(1.2); 
-  }
-  
 
   .custom-navbar .navbar-collapse {
-    background-color: transparent;
     display: flex;
     justify-content: end;
     text-align: center;
     margin-right: 10px;
+
   }
 
   .main-container {
@@ -137,32 +47,190 @@
   
  .main {
   display: flex;
-  margin-top: 150px;
-  width: 50%;
+  margin-top: 100px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+  color: rgba(255,255,255,0.7);
+ 
+
  }
 
  .about-section {
   display: flex;
   flex-direction: column;
-  color: white;
-}
-.first-name {
-  font-size: 25px;
+  color: rgba(255,255,255,0.7);
+  border: .01em solid grey;
+  padding: 10px;
+  border-radius: 10px;
   margin-left: 10px;
-  transition: transform .8s;
+ }
+
+ .first-name {
+  color: black;
 }
 
+
 .first-name:hover {
+  color: black;
   transform: scale(1.04); 
 }
 
-.bg {
-margin-left: auto;
-margin-right: auto;
-background: url("../images/unnamed.jpg");
-background-position: left;
-background-position:75%;
-
+.custom-navbar a {
+ color: white;
 }
+
+.custom-navbar {
+  background-color: white;
+}
+
+.nav-item > a:hover {
+  color: lightgrey;
+}
+
+.bg {
+  background-color: white;
+}
+
+i {
+  padding-right: 10px;
+}
+/* .homeanimation {
+background-color: #EAF4F4;
+} */
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+background-color: #010409;
+height: 100px;
+position:absolute;
+left:0;
+bottom:-25;
+right:0;
+}
+
+@media (max-width: 770px) {
+  .main {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+    align-items: center;
+  }
+  
+}
+
+@media (min-width: 791px ) and (max-width: 1100px ) {
+  .main {
+    margin: 0px;
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    align-items: center;
+  }
+  
+}
+
+
+.cloud {
+  animation-name: animate;
+  animation-duration: 90s;
+  height: 3.5vw;
+  width: 10vw;
+  background: rgb(255, 251, 251);
+  border-radius: 40vw;
+  border: 3px solid rgb(236, 234, 234);
+  position: absolute;
+  margin-top: 3vw;
+}
+
+.cloud:before {
+      content: "";
+      position: absolute;
+      top: -1vw;
+      box-sizing: border-box;
+      height: 2.5vw;
+      width: 2.5vw;
+      left: 1vw;
+      border-radius: 50%;
+      border: 3px solid rgba(255, 249, 249, 0.954);
+      background: rgb(255, 251, 251);
+      transform: rotate(40deg);
+}
+.cloud:after {
+  content: "";
+  position: absolute;
+  height: 5vw;
+  width: 5vw;
+  top: -2.5vw;
+  left: 3vw;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 3px solid rgb(236, 234, 234);
+  border-bottom-color: transparent;
+  background: rgb(255, 251, 251);
+  border-right-color: transparent;
+  transform: rotate(55deg);
+}
+
+.cloud2:before {
+  content: "";
+  position: absolute;
+  top: -1vw;
+  box-sizing: border-box;
+  height: 2.5vw;
+  width: 2.5vw;
+  left: 1vw;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 249, 249, 0.954);
+  background: rgb(255, 251, 251);
+  transform: rotate(40deg);
+}
+
+.cloud2 {
+  animation-name: animate2;
+  animation-duration: 60s;
+  height: 3.5vw;
+  width: 10vw;
+  background: rgb(255, 251, 251);
+  border-radius: 40vw;
+  border: 2px solid rgb(236, 234, 234);
+  position: absolute;
+  margin-top: 10vw;
+}
+.cloud2:after {
+  content: "";
+  position: absolute;
+  height: 5vw;
+  width: 5vw;
+  top: -2.5vw;
+  left: 3vw;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid rgb(236, 234, 234);
+  border-bottom-color: transparent;
+  background: rgb(255, 251, 251);
+  border-right-color: transparent;
+  transform: rotate(55deg);
+}
+
+@keyframes animate {
+  from {transform: translateX(220%);}
+  to {transform: translateX(1000%);}
+}
+
+
+@keyframes animate2 {
+  from {transform: translateX(400%);}
+  to {transform: translateX(1000%);}
+}
+
+
