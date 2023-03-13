@@ -3,14 +3,17 @@ import "../../styles/styles/styles.css";
 export default function AboutMe() {
   return (
     <div>
+      <h2 className="h1-responsive font-weight-bold text-center my-4">
+        About Me
+      </h2>
       <div className="main">
         <div>
           <img className="profile-photo" />
           <p>
-            <i className="bi bi-geo-alt"></i>North Bethesda, Maryland
+            <i className="bi bi-geo-alt-fill"></i>North Bethesda, Maryland
           </p>
           <p>
-            <i className="bi bi-envelope"></i>{" "}
+            <i className="bi bi-envelope-fill"></i>{" "}
             <a className="link" href="mailto:carnett.caleb@gmail.com">
               Carnett.caleb@gmail.com
             </a>

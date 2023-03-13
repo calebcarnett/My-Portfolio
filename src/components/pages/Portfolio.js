@@ -3,29 +3,56 @@ import "../../styles/styles/styles.css";
 export default function Portfolio() {
   return (
     <div>
-      <section className="about-section">
-        <h2 className="description">Hello, I'm Caleb</h2>
-        <hr></hr>
-        <div>
-          <p>Full Stack Developer</p>
+      <h2 className="h1-responsive font-weight-bold text-center my-4">
+        Portfolio
+      </h2>
+      <section className="projects"></section>
+      <div className="card mb-3 portfolio">
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              className="img-fluid pawfriends"
+              alt="pawfriends application"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">Pet Adoption</h5>
+              <p className="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p className="card-text">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia
-            nisi ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat
-            ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet
-            urna imperdiet ac. Sed nec nulla aliquam, bibendum odio eget,
-            vestibulum tortor. Cras rutrum ligula in tincidunt commodo. Morbi
-            sit amet mollis orci, in tristique ex. Donec nec ornare elit. Donec
-            blandit est sed risus feugiat porttitor. Vestibulum molestie
-            hendrerit massa non consequat. Vestibulum vitae lorem tortor. In
-            elementum ultricies tempus. Interdum et malesuada fames ac ante
-            ipsum primis in faucibus.
-          </p>
+      </div>
+      <div className="card mb-3 portfolio">
+        <div className="row g-0">
+          <div className="col-md-4">
+            <img
+              className="img-fluid pawfriends"
+              alt="pawfriends application"
+            />
+          </div>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h5 className="card-title">Pet Adoption</h5>
+              <p className="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <p className="card-text">
+                <small className="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

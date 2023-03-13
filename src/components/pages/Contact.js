@@ -45,11 +45,11 @@ function Contact() {
   };
 
   return (
-    <section class="mb-4">
-      <h2 class="h1-responsive font-weight-bold text-center my-4">
+    <section className="d-flex align-items-center flex-column ">
+      <h2 className="h1-responsive font-weight-bold text-center my-4">
         Contact Me
       </h2>
-      <p class="text-center w-responsive mx-auto mb-5">
+      <p className="text-center w-responsive mx-auto mb-5">
         Do you have any questions? Please do not hesitate to contact me
         directly.
       </p>
@@ -69,23 +69,21 @@ function Contact() {
                     type="text"
                     id="name"
                     name="name"
-                    placeholder="name"
                     className="form-control"
                   />
-                  <label for="name" class="">
+                  <label for="name" className="">
                     Your name
                   </label>
                 </div>
               </div>
 
-              <div class="col-md-6">
-                <div class="md-form mb-0">
+              <div className="col-md-6">
+                <div className="md-form mb-0">
                   <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder="email"
                     className="form-control"
                   />
                   <label for="email" class="">
@@ -129,10 +127,10 @@ function Contact() {
 
           <div className="text-center text-md-left">
             <a
-              className="btn btn-primary"
+              className="btn btn-outline-dark btn-floating m-1"
               onclick="document.getElementById('contact-form').submit();"
             >
-              Send
+              Send<i class="bi bi-send"></i>
             </a>
           </div>
           <div className="status"></div>

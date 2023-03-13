@@ -3,6 +3,9 @@ import "../../styles/styles/styles.css";
 export default function Resume() {
   return (
     <div>
+      <h2 className="h1-responsive font-weight-bold text-center my-4">
+        Resume
+      </h2>
       <h1>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
