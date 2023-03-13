@@ -31,8 +31,8 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage("Email or username is invalid");
+    if (!validateEmail(email)) {
+      setErrorMessage("Email is invalid");
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
@@ -45,41 +45,148 @@ function Contact() {
   };
 
   return (
-    <div>
-      <p>Hello {userName}</p>
-      <form className="form">
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={userName}
-          name="userName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="username"
-        />
-        <input
-          value={password}
-          name="password"
-          onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
-      </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
+    <section class="mb-4">
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Contact Me
+      </h2>
+      <p class="text-center w-responsive mx-auto mb-5">
+        Do you have any questions? Please do not hesitate to contact me
+        directly.
+      </p>
+
+      <div className="row">
+        <div className="col-md-9 mb-md-0 mb-5">
+          <form
+            id="contact-form"
+            className="contact-form"
+            onChange={handleInputChange}
+            method="POST"
+          >
+            <div className="row">
+              <div className="col-md-6">
+                <div className="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="name"
+                    className="form-control"
+                  />
+                  <label for="name" class="">
+                    Your name
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="email"
+                    className="form-control"
+                  />
+                  <label for="email" class="">
+                    Email
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-12">
+                <div className="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    className="form-control"
+                  />
+                  <label for="subject" className="">
+                    Subject
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-12">
+                <div className="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    className="form-control md-textarea"
+                  ></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+            </div>
+          </form>
+
+          <div className="text-center text-md-left">
+            <a
+              className="btn btn-primary"
+              onclick="document.getElementById('contact-form').submit();"
+            >
+              Send
+            </a>
+          </div>
+          <div className="status"></div>
         </div>
-      )}
-    </div>
+
+        <div className="col-md-3 text-center">
+          <ul className="list-unstyled mb-0">
+            <li>
+              <i className="bi bi-geo-alt"></i>
+              <p>North Bethesda, Maryland</p>
+            </li>
+
+            <li>
+              <i className="bi bi-telephone-forward"></i>
+              <p>830-312-8326</p>
+            </li>
+
+            <li>
+              <i className="bi bi-envelope-at"></i>
+              <p>carnett.caleb@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   );
+  // <div>
+  //   <p>Hello {userName}</p>
+  //   <form className="form">
+  //     <input
+  //       value={email}
+  //       name="email"
+  //       onChange={handleInputChange}
+  //       type="email"
+  //       placeholder="email"
+  //     />
+  //     <input
+  //       value={userName}
+  //       name="userName"
+  //       onChange={handleInputChange}
+  //       type="text"
+  //       placeholder="username"
+  //     />
+  //     <button type="button" onClick={handleFormSubmit}>
+  //       Submit
+  //     </button>
+  //   </form>
+  //   {errorMessage && (
+  //     <div>
+  //       <p className="error-text">{errorMessage}</p>
+  //     </div>
+  //   )}
+  // </div>
+  // );
 }
 
 export default Contact;
