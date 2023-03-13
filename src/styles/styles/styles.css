@@ -1,7 +1,10 @@
 
   /* The element to apply the animation to */
 
-  html, body { height: 100% }
+  html, body { 
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
 
   
 
@@ -14,20 +17,21 @@
 
   }
 
-  .signature{
+  .first-name{
+    color: #2E2E2E;
     margin: 0px;
     width: 30vh;
     border-radius: 50%;
-    content: url(../images/signature.png);
-    transition: transform .4s;
-
+    transition: transform .7s;
+    padding-left: 20px;
   }
-  .signature:hover {
+  .first-name:hover {
     transform: scale(1.1); 
+    color: #2E2E2E;
   }
   
   .profile-photo:hover {
-    transform: scale(1.04); 
+    transform: scale(1.01); 
   }
 
 
@@ -51,7 +55,7 @@
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  color: rgba(255,255,255,0.7);
+  color: #2E2E2E;
  
 
  }
@@ -59,33 +63,15 @@
  .about-section {
   display: flex;
   flex-direction: column;
-  color: rgba(255,255,255,0.7);
+  color: #2E2E2E;
   border: .01em solid grey;
   padding: 10px;
   border-radius: 10px;
   margin-left: 10px;
  }
 
- .first-name {
-  color: black;
-}
-
-
-.first-name:hover {
-  color: black;
-  transform: scale(1.04); 
-}
-
-.custom-navbar a {
- color: white;
-}
-
 .custom-navbar {
-  background-color: white;
-}
-
-.nav-item > a:hover {
-  color: lightgrey;
+  color: #2E2E2E;
 }
 
 .bg {
