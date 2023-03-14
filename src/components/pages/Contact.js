@@ -37,7 +37,7 @@ function Contact() {
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    alert(`Hello ${userName}`);
+    alert(`Hello ${userName}, your message was sent.`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName("");
@@ -49,6 +49,7 @@ function Contact() {
       <h2 className="h1-responsive font-weight-bold text-center my-4">
         Contact Me
       </h2>
+      <hr></hr>
       <p className="text-center w-responsive mx-auto mb-5">
         Do you have any questions? Please do not hesitate to contact me
         directly.
@@ -69,6 +70,7 @@ function Contact() {
                     type="text"
                     id="name"
                     name="name"
+                    value={userName}
                     className="form-control"
                   />
                   <label for="name" className="">
@@ -124,11 +126,15 @@ function Contact() {
               </div>
             </div>
           </form>
-
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
           <div className="text-center text-md-left">
             <a
               className="btn btn-outline-dark btn-floating m-1"
-              onclick="document.getElementById('contact-form').submit();"
+              onClick={handleFormSubmit}
             >
               Send<i class="bi bi-send"></i>
             </a>
@@ -157,34 +163,6 @@ function Contact() {
       </div>
     </section>
   );
-  // <div>
-  //   <p>Hello {userName}</p>
-  //   <form className="form">
-  //     <input
-  //       value={email}
-  //       name="email"
-  //       onChange={handleInputChange}
-  //       type="email"
-  //       placeholder="email"
-  //     />
-  //     <input
-  //       value={userName}
-  //       name="userName"
-  //       onChange={handleInputChange}
-  //       type="text"
-  //       placeholder="username"
-  //     />
-  //     <button type="button" onClick={handleFormSubmit}>
-  //       Submit
-  //     </button>
-  //   </form>
-  //   {errorMessage && (
-  //     <div>
-  //       <p className="error-text">{errorMessage}</p>
-  //     </div>
-  //   )}
-  // </div>
-  // );
 }
 
 export default Contact;

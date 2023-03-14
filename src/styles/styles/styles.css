@@ -88,11 +88,10 @@
  .main {
   display: flex;
   margin-top: 50px;
-  width: 70%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   color: #2E2E2E;
- 
 
  }
 
@@ -163,3 +162,19 @@ right:0;
   }
 }
 
+.skillsGrid {
+  margin: auto;
+  width: 70%;
+ 
+   }
+
+ .skillsGrid img {
+ width: 30px;
+ margin: 20px;
+ }
+
+ .skillsGrid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }

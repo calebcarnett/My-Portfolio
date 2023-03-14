@@ -9,10 +9,11 @@ export default function Resume() {
         href={resume}
         download
         type="button"
-        className="btn btn-outline-dark btn-floating m-1"
+        className="btn btn-outline-dark btn-floating my-4"
       >
         Download Resume
       </a>
+      <hr></hr>
       <div className="header">
         <h1>CALEB CARNETT</h1>
         <p>

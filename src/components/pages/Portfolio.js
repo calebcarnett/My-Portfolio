@@ -3,6 +3,9 @@ import "../../styles/styles/styles.css";
 export default function Portfolio() {
   return (
     <div>
+      <h2 className="h1-responsive font-weight-bold text-center my-4">
+        Projects
+      </h2>
       <div className="row row-cols-1 row-cols-md-3 m-5">
         <div className="col mb-4">
           <div className="card">

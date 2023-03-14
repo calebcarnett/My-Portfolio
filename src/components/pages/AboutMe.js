@@ -6,6 +6,7 @@ export default function AboutMe() {
       <h2 className="h1-responsive font-weight-bold text-center my-4">
         About Me
       </h2>
+      <hr></hr>
       <div className="main">
         <div>
           <div>
@@ -34,7 +35,7 @@ export default function AboutMe() {
           <h2 className="description">Hello, I'm Caleb</h2>
           <hr></hr>
           <div>
-            <p>Full Stack Developer</p>
+            <h4>Full Stack Developer</h4>
           </div>
 
           <div>
@@ -47,7 +48,90 @@ export default function AboutMe() {
               hands-on projects.
             </p>
           </div>
+          <p>
+            When I'm not coding I enjoy being outdoors, going on hikes, or
+            playing pickleball with my wife.
+          </p>
         </section>
+      </div>
+      <hr></hr>
+      <p className="text-center">A few of my skills.</p>
+      <div class="skillsGrid">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+          alt="The logo icon for react"
+          title="React"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+          alt="The logo icon for HTML 5"
+          title="HTML 5"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+          alt="The logo icon for CSS3"
+          title="CSS 3"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+          alt="The logo icon for TailwindCSS"
+          title="Twilwind CSS"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg"
+          alt="The logo icon for Bootstrap"
+          title="Bootstrap"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+          alt="The logo icon for Express"
+          title="Express"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+          alt="The logo icon for GitHub"
+          title="GitHub"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+          alt="The logo icon for Git"
+          title="Git"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original-wordmark.svg"
+          alt="The logo icon for Heroku"
+          title="Heroku"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          alt="The logo icon for Javascript"
+          title="JavaScript"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg"
+          alt="The logo icon for jQuery"
+          title="jQuery"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+          alt="The logo icon for MongoDB"
+          title="Mongo DB"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+          alt="The logo icon for MySQL"
+          title="MySQL"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+          alt="The logo icon for NPM"
+          title="NPM"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+          alt="The logo icon for NodeJS"
+          title="Node JS"
+        />
       </div>
     </div>
   );
