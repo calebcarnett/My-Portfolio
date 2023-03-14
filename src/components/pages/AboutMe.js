@@ -8,7 +8,9 @@ export default function AboutMe() {
       </h2>
       <div className="main">
         <div>
-          <img className="profile-photo" />
+          <div>
+            <img className="profile-photo" />
+          </div>
           <p>
             <i className="bi bi-geo-alt-fill"></i>North Bethesda, Maryland
           </p>

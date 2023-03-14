@@ -8,8 +8,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid pawfriends"
-                src="src\styles\images\pawfriends.png"
+                className="card-img-top img-fluid pawfriends zoom"
                 alt="Card image cap"
               />
               <a href="#!">
@@ -44,7 +43,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid movienight"
+                className="card-img-top img-fluid movienight zoom"
                 alt="Card image cap"
               />
               <a href="#!">
@@ -79,7 +78,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top takenotes img-fluid"
+                className="card-img-top takenotes img-fluid zoom"
                 alt="Card image cap"
               />
             </div>
@@ -111,7 +110,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid profilegenerator"
+                className="card-img-top img-fluid profilegenerator zoom"
                 alt="Card image cap"
               />
               <a href="#!">
@@ -140,7 +139,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid weather"
+                className="card-img-top img-fluid weather zoom"
                 alt="Card image cap"
               />
               <a href="#!">

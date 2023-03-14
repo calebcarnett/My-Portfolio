@@ -55,15 +55,24 @@
     transition: transform .7s;
     padding-left: 20px;
   }
-  .first-name:hover {
-    transform: scale(1.1); 
-    color: #2E2E2E;
-  }
+
   
   .profile-photo:hover {
     transform: scale(1.01); 
   }
 
+  .view {
+    overflow: hidden;
+  }
+  
+  .view img {
+    transition: transform 1s ease-in-out;
+      transform-origin: top;
+  }
+  
+  .view img:hover {
+    transform: scale(1.2);
+  }
 
   .custom-navbar .navbar-collapse {
     display: flex;
@@ -72,7 +81,6 @@
     margin-right: 10px;
 
   }
-
   .main-container {
     min-height: calc(100vh - 80px); /* 80px is the height of the navbar */
     display: flex;
@@ -81,7 +89,7 @@
   
  .main {
   display: flex;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
