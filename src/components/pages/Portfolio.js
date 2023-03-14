@@ -23,18 +23,20 @@ export default function Portfolio() {
                 PawFriends is a MVC full stack application where users can
                 upload/delete and view other rescued animals posted by users.
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://pawfriends.herokuapp.com/"
               >
                 Live Site
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/pawfriends"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -56,18 +58,20 @@ export default function Portfolio() {
                 Movie Night is a Javascript front-end application created using
                 Youtube and OMDB API's.
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://calebcarnett.github.io/Movie-Search-Application"
               >
                 Live Site
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/Movie-Search-Application"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -78,9 +82,6 @@ export default function Portfolio() {
                 className="card-img-top takenotes img-fluid"
                 alt="Card image cap"
               />
-              <a href="#!">
-                <div className="mask rgba-white-slight"></div>
-              </a>
             </div>
 
             <div className="card-body">
@@ -89,18 +90,20 @@ export default function Portfolio() {
                 This application uses Express.js and will save and retrieve note
                 data from a JSON file.
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://takenotes.herokuapp.com/"
               >
                 Live Site
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/Take-Notes"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -123,18 +126,13 @@ export default function Portfolio() {
                 that displays summaries for each person on a software
                 engineering team.
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
-              >
-                Live Site
-              </button>
-              <button
-                type="button"
-                className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/Profile-Generator"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -156,18 +154,20 @@ export default function Portfolio() {
                 Front end application using a third party API to retrieve the
                 local weather. Technologies used: Javscript, API, HTML, and CSS.
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://calebcarnett.github.io/Weather-App/"
               >
                 Live Site
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/Weather-App"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -189,18 +189,20 @@ export default function Portfolio() {
                 Quiz game that features dynamically updated HTML and CSS powered
                 by JavaScript
               </p>
-              <button
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://calebcarnett.github.io/Quiz-Game/"
               >
                 Live Site
-              </button>
-              <button
+              </a>
+              <a
                 type="button"
                 className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/calebcarnett/Quiz-Game"
               >
                 Code Repository
-              </button>
+              </a>
             </div>
           </div>
         </div>
