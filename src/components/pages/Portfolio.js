@@ -23,10 +23,16 @@ export default function Portfolio() {
                 PawFriends is a MVC full stack application where users can
                 upload/delete and view other rescued animals posted by users.
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>
@@ -50,10 +56,16 @@ export default function Portfolio() {
                 Movie Night is a Javascript front-end application created using
                 Youtube and OMDB API's.
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>
@@ -77,10 +89,16 @@ export default function Portfolio() {
                 This application uses Express.js and will save and retrieve note
                 data from a JSON file.
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>
@@ -90,9 +108,8 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid profilegenerator"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -106,10 +123,16 @@ export default function Portfolio() {
                 that displays summaries for each person on a software
                 engineering team.
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>
@@ -119,9 +142,8 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid weather"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -129,15 +151,21 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">Weather App</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Front end application using a third party API to retrieve the
+                local weather. Technologies used: Javscript, API, HTML, and CSS.
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>
@@ -147,9 +175,8 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top img-fluid"
+                className="card-img-top img-fluid codequiz"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -157,15 +184,21 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">Code Quiz</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Quiz game that features dynamically updated HTML and CSS powered
+                by JavaScript
               </p>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Live Site
               </button>
-              <button type="button" className="btn btn-light-blue btn-md">
+              <button
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+              >
                 Code Repository
               </button>
             </div>

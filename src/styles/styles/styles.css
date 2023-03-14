@@ -22,14 +22,28 @@
     border-radius: 10px;
   }
 
+.profilegenerator {
+  content: url(../images/Screenshot\ 2023-02-22\ 165310.png);
+}
 
  .takenotes {
   content: url(../images/take-notes.png);
  }
 
+ .codequiz {
+  content: url(../images/codequiz.png);
+ }
+
+ .weather {
+  content: url(../images/weather.png);
+ }
+
+
  .movienight {
   content: url(../images/Movie-Application.png);
  }
+
+
 
   .first-name{
     color: #2E2E2E;
