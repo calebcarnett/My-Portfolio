@@ -17,6 +17,12 @@
 
   }
 
+  .pawfriends {
+    content: url(../images/pawfriends.png);
+    border-radius: 10px;
+  }
+
+
   .first-name{
     color: #2E2E2E;
     margin: 0px;
@@ -99,6 +105,8 @@ bottom:-25;
 right:0;
 }
 
+
+
 @media (max-width: 770px) {
   .main {
     margin: 0px;
@@ -122,101 +130,5 @@ right:0;
     color: black;
     align-items: center;
   }
-  
 }
-
-
-.cloud {
-  animation-name: animate;
-  animation-duration: 90s;
-  height: 3.5vw;
-  width: 10vw;
-  background: rgb(255, 251, 251);
-  border-radius: 40vw;
-  border: 3px solid rgb(236, 234, 234);
-  position: absolute;
-  margin-top: 3vw;
-}
-
-.cloud:before {
-      content: "";
-      position: absolute;
-      top: -1vw;
-      box-sizing: border-box;
-      height: 2.5vw;
-      width: 2.5vw;
-      left: 1vw;
-      border-radius: 50%;
-      border: 3px solid rgba(255, 249, 249, 0.954);
-      background: rgb(255, 251, 251);
-      transform: rotate(40deg);
-}
-.cloud:after {
-  content: "";
-  position: absolute;
-  height: 5vw;
-  width: 5vw;
-  top: -2.5vw;
-  left: 3vw;
-  border-radius: 50%;
-  box-sizing: border-box;
-  border: 3px solid rgb(236, 234, 234);
-  border-bottom-color: transparent;
-  background: rgb(255, 251, 251);
-  border-right-color: transparent;
-  transform: rotate(55deg);
-}
-
-.cloud2:before {
-  content: "";
-  position: absolute;
-  top: -1vw;
-  box-sizing: border-box;
-  height: 2.5vw;
-  width: 2.5vw;
-  left: 1vw;
-  border-radius: 50%;
-  border: 3px solid rgba(255, 249, 249, 0.954);
-  background: rgb(255, 251, 251);
-  transform: rotate(40deg);
-}
-
-.cloud2 {
-  animation-name: animate2;
-  animation-duration: 60s;
-  height: 3.5vw;
-  width: 10vw;
-  background: rgb(255, 251, 251);
-  border-radius: 40vw;
-  border: 2px solid rgb(236, 234, 234);
-  position: absolute;
-  margin-top: 10vw;
-}
-.cloud2:after {
-  content: "";
-  position: absolute;
-  height: 5vw;
-  width: 5vw;
-  top: -2.5vw;
-  left: 3vw;
-  border-radius: 50%;
-  box-sizing: border-box;
-  border: 2px solid rgb(236, 234, 234);
-  border-bottom-color: transparent;
-  background: rgb(255, 251, 251);
-  border-right-color: transparent;
-  transform: rotate(55deg);
-}
-
-@keyframes animate {
-  from {transform: translateX(220%);}
-  to {transform: translateX(1000%);}
-}
-
-
-@keyframes animate2 {
-  from {transform: translateX(400%);}
-  to {transform: translateX(1000%);}
-}
-
 
