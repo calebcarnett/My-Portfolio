@@ -8,9 +8,9 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top img-fluid pawfriends"
+                src="src\styles\images\pawfriends.png"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -18,13 +18,16 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">PawFriends</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                PawFriends is a MVC full stack application where users can
+                upload/delete and view other rescued animals posted by users.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
@@ -33,9 +36,8 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top img-fluid movienight"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -43,13 +45,16 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">Movie Night</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Movie Night is a Javascript front-end application created using
+                Youtube and OMDB API's.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
@@ -58,9 +63,8 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top takenotes img-fluid"
                 alt="Card image cap"
-                src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
               <a href="#!">
                 <div className="mask rgba-white-slight"></div>
@@ -68,13 +72,16 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">Note Taker</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This application uses Express.js and will save and retrieve note
+                data from a JSON file.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
@@ -83,7 +90,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top img-fluid"
                 alt="Card image cap"
                 src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
@@ -93,13 +100,17 @@ export default function Portfolio() {
             </div>
 
             <div className="card-body">
-              <h4 className="card-title">Card title</h4>
+              <h4 className="card-title">Profile Generator</h4>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Node.js command-line application that generates an HTML webpage
+                that displays summaries for each person on a software
+                engineering team.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
@@ -108,7 +119,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top img-fluid"
                 alt="Card image cap"
                 src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
@@ -124,7 +135,10 @@ export default function Portfolio() {
                 the bulk of the card's content.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
@@ -133,7 +147,7 @@ export default function Portfolio() {
           <div className="card">
             <div className="view overlay">
               <img
-                className="card-img-top "
+                className="card-img-top img-fluid"
                 alt="Card image cap"
                 src="https://mdbootstrap.com/img/Photos/Others/images/16.webp"
               />
@@ -149,7 +163,10 @@ export default function Portfolio() {
                 the bulk of the card's content.
               </p>
               <button type="button" className="btn btn-light-blue btn-md">
-                Read more
+                Live Site
+              </button>
+              <button type="button" className="btn btn-light-blue btn-md">
+                Code Repository
               </button>
             </div>
           </div>
