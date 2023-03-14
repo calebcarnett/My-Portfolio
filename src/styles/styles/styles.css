@@ -178,3 +178,12 @@ right:0;
    flex-wrap: wrap;
    justify-content: center;
  }
+
+ .navbar-toggler .bottom-bar {
+  top: inherit;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background: rgb(51, 87, 139);
+}
