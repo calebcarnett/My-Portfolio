@@ -4,6 +4,10 @@ import "../../styles/styles/styles.css";
 // Here we import a helper function that will check if the email is valid
 import { validateEmail } from "../../utils/Helper";
 
+function onblur() {
+  alert("This field is required");
+}
+
 function Contact() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
@@ -71,6 +75,7 @@ function Contact() {
                     name="name"
                     value={userName}
                     className="form-control"
+                    // onblur={onblur()}
                   />
                   <label for="name" className="">
                     Your name
@@ -86,6 +91,7 @@ function Contact() {
                     onChange={handleInputChange}
                     type="email"
                     className="form-control"
+                    // onblur={onblur()}
                   />
                   <label for="email" class="">
                     Email
@@ -102,6 +108,7 @@ function Contact() {
                     id="subject"
                     name="subject"
                     className="form-control"
+                    // onblur={onblur()}
                   />
                   <label for="subject" className="">
                     Subject
