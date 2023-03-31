@@ -1,0 +1,189 @@
+
+  /* The element to apply the animation to */
+
+  html, body { 
+    height: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
+
+  .profile-photo {
+    margin: 10px;
+    width:40vh;
+    border-radius: 50%;
+    content: url(../images/headshot.jpg);
+    transition: transform .4s;
+    box-shadow: 3px 3px 13px -7px rgba(0,0,0,0.82);
+
+  }
+
+  .pawfriends {
+    content: url(../images/pawfriends.png);
+    border-radius: 10px;
+  }
+
+.profilegenerator {
+  content: url(../images/Screenshot\ 2023-02-22\ 165310.png);
+}
+
+ .takenotes {
+  content: url(../images/take-notes.png);
+ }
+
+ .codequiz {
+  content: url(../images/codequiz.png);
+ }
+
+ .weather {
+  content: url(../images/weather.png);
+ }
+
+
+ .movienight {
+  content: url(../images/Movie-Application.png);
+ }
+
+.card {
+  box-shadow: 3px 3px 13px -7px rgba(0,0,0,0.82);
+}
+  .first-name{
+    color: #2E2E2E;
+    margin: 0px;
+    width: 30vh;
+    border-radius: 50%;
+    transition: transform .7s;
+    padding-left: 20px;
+  }
+
+  
+  .profile-photo:hover {
+    transform: scale(1.01); 
+  }
+
+  .view {
+    overflow: hidden;
+  }
+  
+  .view img {
+    transition: transform 1s ease-in-out;
+      transform-origin: top;
+  }
+  
+  .view img:hover {
+    transform: scale(1.2);
+  }
+
+  .custom-navbar .navbar-collapse {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin-right: 10px;
+
+  }
+  .main-container {
+    min-height: calc(100vh - 80px); /* 80px is the height of the navbar */
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .main {
+  display: flex;
+  margin-top: 50px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #2E2E2E;
+
+ }
+
+ .about-section {
+  display: flex;
+  flex-direction: column;
+  color: #2E2E2E;
+  border: .01em solid grey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  box-shadow: 3px 3px 13px -7px rgba(0,0,0,0.82);
+ }
+
+.custom-navbar {
+  color: #2E2E2E;
+}
+
+.bg {
+  background-color: white;
+}
+
+i {
+  padding-right: 10px;
+}
+/* .homeanimation {
+background-color: #EAF4F4;
+} */
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+background-color: white;
+height: 100px;
+position:absolute;
+left:0;
+bottom:-25;
+right:0;
+}
+
+
+
+@media (max-width: 770px) {
+  .main {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+    align-items: center;
+  }
+  
+}
+
+@media (min-width: 791px ) and (max-width: 1100px ) {
+  .main {
+    margin: 0px;
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    align-items: center;
+  }
+}
+
+.skillsGrid {
+  margin: auto;
+  width: 70%;
+ 
+   }
+
+ .skillsGrid img {
+ width: 30px;
+ margin: 20px;
+ }
+
+ .skillsGrid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .navbar-toggler .bottom-bar {
+  top: inherit;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background: rgb(51, 87, 139);
+}
