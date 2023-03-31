@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50776807.css",
+    "main.js": "/static/js/main.8ce05e41.js",
+    "static/media/headshot.jpg": "/static/media/headshot.c14676c7ffef2776cd87.jpg",
+    "static/media/weather.png": "/static/media/weather.e7df1b9517b5c6be42aa.png",
+    "static/media/pawfriends.png": "/static/media/pawfriends.47f17a16825d22df795c.png",
+    "static/media/Movie-Application.png": "/static/media/Movie-Application.7dc214c4fa141e44a7cf.png",
+    "static/media/Screenshot 2023-02-22 165310.png": "/static/media/Screenshot 2023-02-22 165310.80f68e7ade0060534f2b.png",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/calebsresume.pdf": "/static/media/calebsresume.79877edfaa754985f7ef.pdf",
+    "static/media/codequiz.png": "/static/media/codequiz.55afdb7097cc1db76ddb.png",
+    "static/media/take-notes.png": "/static/media/take-notes.e9e3cb252ac4b1c1b456.png",
+    "index.html": "/index.html",
+    "main.50776807.css.map": "/static/css/main.50776807.css.map",
+    "main.8ce05e41.js.map": "/static/js/main.8ce05e41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50776807.css",
+    "static/js/main.8ce05e41.js"
+  ]
+}
