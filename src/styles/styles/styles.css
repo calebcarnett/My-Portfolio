@@ -21,8 +21,8 @@
     border-radius: 10px;
   }
 
-.profilegenerator {
-  content: url(../images/Screenshot\ 2023-02-22\ 165310.png);
+.cool-beans{
+  content: url(../images/coolbeans.png);
 }
 
  .takenotes {
@@ -64,12 +64,12 @@
   }
   
   .view img {
-    transition: transform 1s ease-in-out;
+    transition: transform .4s ease-in-out;
       transform-origin: top;
   }
   
   .view img:hover {
-    transform: scale(1.2);
+    transform: scale(1.03);
   }
 
   .custom-navbar .navbar-collapse {
@@ -187,3 +187,4 @@ right:0;
 .navbar-toggler.collapsed .toggler-icon {
   background: rgb(51, 87, 139);
 }
+

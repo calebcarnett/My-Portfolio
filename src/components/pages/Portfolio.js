@@ -7,7 +7,45 @@ export default function Portfolio() {
         Projects
       </h2>
       <hr></hr>
-      <div className="row row-cols-1 row-cols-md-3 m-5">
+
+      <div className="row row-cols-2 row-cols-lg-3 m-2">
+        <div className="col">
+          <div className="card">
+            <div className="view overlay">
+              <img
+                className="card-img-top img-fluid cool-beans zoom"
+                alt="Card image cap"
+              />
+              <a href="#!">
+                <div className="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <div className="card-body">
+              <h4 className="card-title">Cool-Beans E-commerce</h4>
+              <p className="card-text">
+                Cool-Beans is a full-stack application built with React,
+                Express, MongoDB, and Node.js. Our site provides a seamless
+                shopping experience for coffee lovers who want to buy
+                high-quality beans from the comfort of their own home.
+              </p>
+              <a
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+                href="https://cool-beans-ecommerce.herokuapp.com/"
+              >
+                Live Site
+              </a>
+              <a
+                type="button"
+                className="btn btn-outline-dark btn-floating m-1"
+                href="https://github.com/hmustain/Cool-Beans.git"
+              >
+                Code Repository
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">
@@ -110,35 +148,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="col mb-4">
-          <div className="card">
-            <div className="view overlay">
-              <img
-                className="card-img-top img-fluid profilegenerator zoom"
-                alt="Card image cap"
-              />
-              <a href="#!">
-                <div className="mask rgba-white-slight"></div>
-              </a>
-            </div>
 
-            <div className="card-body">
-              <h4 className="card-title">Profile Generator</h4>
-              <p className="card-text">
-                Node.js command-line application that generates an HTML webpage
-                that displays summaries for each person on a software
-                engineering team.
-              </p>
-              <a
-                type="button"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://github.com/calebcarnett/Profile-Generator"
-              >
-                Code Repository
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">

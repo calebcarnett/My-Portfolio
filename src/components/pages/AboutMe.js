@@ -40,12 +40,12 @@ export default function AboutMe() {
 
           <div>
             <p>
-              Completing a software development certification where I developed
-              a strong foundation in Javascript programming language. In my
-              previous position, I was known for my ability to solve problems
-              and execute tasks effectively and on time. Seeking a software
-              developer role where I can continue to apply my expertise through
-              hands-on projects.
+              Completed a software development certification where I developed a
+              strong foundation in Javascript programming language, React,
+              Node.js, MongoDB, and Express. In my previous position, I was
+              known for my ability to solve problems and execute tasks
+              effectively and on time. Seeking a software developer role where I
+              can continue to apply my expertise through hands-on projects.
             </p>
           </div>
           <p>
