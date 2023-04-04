@@ -9,7 +9,7 @@ export default function Portfolio() {
       </h2>
       <hr></hr>
 
-      <div className="row row-cols-sm-1  row-cols-md-2 row-cols-lg-3 m-2">
+      <div className="row  row-cols-1 row-cols-md-2 row-cols-lg-3 m-2 projects">
         <div className="col">
           <div className="card">
             <div className="view overlay">

@@ -146,6 +146,10 @@ right:0;
     width: 100%;
     align-items: center;
   }
+  .projects {
+    width: 100%;
+  }
+
   
 }
 
@@ -160,6 +164,7 @@ right:0;
     color: black;
     align-items: center;
   }
+
 }
 
 .skillsGrid {
