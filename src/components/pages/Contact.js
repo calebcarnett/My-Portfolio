@@ -1,52 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../styles/styles/styles.css";
-
-// Here we import a helper function that will check if the email is valid
-import { validateEmail } from "../../utils/Helper";
-
-function onblur() {
-  alert("This field is required");
-}
+import { useForm, ValidationError } from "@formspree/react";
 
 function Contact() {
-  // Create state variables for the fields in the form
-  // We are also setting their initial values to an empty string
-  const [email, setEmail] = useState("");
-  const [userName, setName] = useState("");
-
-  const [errorMessage, setErrorMessage] = useState("");
-
-  const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
-
-    // Based on the input type, we set the state of either email, username, and password
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "name") {
-      setName(inputValue);
-    }
-  };
-
-  const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
-    e.preventDefault();
-
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email)) {
-      setErrorMessage("Email is invalid");
-      // We want to exit out of this code block if something is wrong so that the user can correct it
-      return;
-      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    }
-    alert(`Hello ${userName}, your message was sent.`);
-
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setName("");
-    setEmail("");
-  };
+  const [state, handleSubmit] = useForm("xayzpyor");
+  if (state.succeeded) {
+    return (
+      <div className="thanks">
+        <h1>
+          Thank you for reaching out!<br></br>To go back to the home page click{" "}
+          <a href="/home">Me</a>
+        </h1>
+        ;
+      </div>
+    );
+  }
 
   return (
     <section className="d-flex align-items-center flex-column ">
@@ -63,39 +31,44 @@ function Contact() {
           <form
             id="contact-form"
             className="contact-form"
-            onChange={handleInputChange}
+            onSubmit={handleSubmit}
             method="POST"
           >
             <div className="row">
               <div className="col-md-6">
                 <div className="md-form mb-0">
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={userName}
-                    className="form-control"
-                    // onblur={onblur()}
-                  />
-                  <label for="name" className="">
+                  <label htmlFor="name" className="">
                     Your name
                   </label>
+                  <input
+                    name="name"
+                    id="name"
+                    type="name"
+                    placeholder="name"
+                    className="form-control"
+                  />
                 </div>
               </div>
 
               <div className="col-md-6">
                 <div className="md-form mb-0">
-                  <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    className="form-control"
-                    // onblur={onblur()}
-                  />
-                  <label for="email" class="">
+                  <label htmlFor="email" class="">
                     Email
                   </label>
+                  <input
+                    className="form-control"
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    // onblur={onblur()}
+                  />
+
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
                 </div>
               </div>
             </div>
@@ -103,16 +76,16 @@ function Contact() {
             <div className="row">
               <div className="col-md-12">
                 <div className="md-form mb-0">
+                  <label htmlFor="subject" className="">
+                    Subject
+                  </label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
                     className="form-control"
-                    // onblur={onblur()}
+                    placeholder="subject"
                   />
-                  <label for="subject" className="">
-                    Subject
-                  </label>
                 </div>
               </div>
             </div>
@@ -120,31 +93,33 @@ function Contact() {
             <div className="row">
               <div className="col-md-12">
                 <div className="md-form">
+                  <label htmlFor="message">Message</label>
                   <textarea
                     type="text"
                     id="message"
                     name="message"
                     rows="2"
                     className="form-control md-textarea"
+                    placeholder="leave a message"
                   ></textarea>
-                  <label for="message">Message</label>
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
               </div>
             </div>
-          </form>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>
-          )}
-          <div className="text-center text-md-left">
-            <a
+            <button
               className="btn btn-outline-dark btn-floating m-1"
-              onClick={handleFormSubmit}
+              type="submit"
+              disabled={state.submitting}
             >
-              Send<i class="bi bi-send"></i>
-            </a>
-          </div>
+              Send<i className="bi bi-send"></i>
+            </button>
+          </form>
+
+          <div className="text-center text-md-left"></div>
           <div className="status"></div>
         </div>
 

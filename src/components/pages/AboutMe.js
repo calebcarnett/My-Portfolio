@@ -56,7 +56,7 @@ export default function AboutMe() {
       </div>
       <hr></hr>
       <p className="text-center">A few of my skills.</p>
-      <div class="skillsGrid">
+      <div className="skillsGrid">
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
           alt="The logo icon for react"
@@ -135,11 +135,4 @@ export default function AboutMe() {
       </div>
     </div>
   );
-}
-
-{
-  /* <div className="homeanimation"> </div>
-      <div className="mountain"></div>
-      <div className="cloud"></div>
-      <div className="cloud2"></div> */
 }

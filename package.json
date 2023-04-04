@@ -4,6 +4,7 @@
   "homepage": "https://calebcarnett.github.io/my-portfolio",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
@@ -24,7 +25,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [

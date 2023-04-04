@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/styles/styles.css";
+
 export default function Portfolio() {
   return (
     <div>
@@ -8,7 +9,7 @@ export default function Portfolio() {
       </h2>
       <hr></hr>
 
-      <div className="row row-cols-2 row-cols-lg-3 m-2">
+      <div className="row row-cols-sm-2  row-cols-md-2 row-cols-lg-3 m-2">
         <div className="col">
           <div className="card">
             <div className="view overlay">
