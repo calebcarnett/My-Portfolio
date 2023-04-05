@@ -43,7 +43,9 @@
  }
 
 .card {
+  margin: 50px;
   box-shadow: 3px 3px 13px -7px rgba(0,0,0,0.82);
+  text-align: center;
 }
   .first-name{
     color: #2E2E2E;
@@ -131,6 +133,9 @@ background-color: #EAF4F4;
 
 
 @media (max-width: 770px) {
+  .card {
+    margin: 0px;
+  }
   .main {
     margin: 0px;
     display: flex;
