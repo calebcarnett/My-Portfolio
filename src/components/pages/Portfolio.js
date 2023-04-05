@@ -32,6 +32,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://cool-beans-ecommerce.herokuapp.com/"
               >
@@ -39,6 +40,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/hmustain/Cool-Beans.git"
               >
@@ -67,6 +69,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://pawfriends.herokuapp.com/"
               >
@@ -74,6 +77,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/pawfriends"
               >
@@ -102,6 +106,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://calebcarnett.github.io/Movie-Search-Application"
               >
@@ -109,6 +114,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/Movie-Search-Application"
               >
@@ -134,6 +140,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://takenotes.herokuapp.com/"
               >
@@ -141,6 +148,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/Take-Notes"
               >
@@ -170,6 +178,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://calebcarnett.github.io/Weather-App/"
               >
@@ -177,6 +186,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/Weather-App"
               >
@@ -205,6 +215,7 @@ export default function Portfolio() {
               </p>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://calebcarnett.github.io/Quiz-Game/"
               >
@@ -212,6 +223,7 @@ export default function Portfolio() {
               </a>
               <a
                 type="button"
+                target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/Quiz-Game"
               >

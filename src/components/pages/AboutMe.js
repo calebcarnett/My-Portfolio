@@ -1,5 +1,7 @@
 import React from "react";
 import "../../styles/styles/styles.css";
+import resume from "../../styles/images/calebsresume.pdf";
+import Portfolio from "./Portfolio";
 export default function AboutMe() {
   return (
     <div>
@@ -8,7 +10,7 @@ export default function AboutMe() {
       </h2>
       <hr></hr>
       <div className="main">
-        <div>
+        <div className="my-information">
           <div>
             <img className="profile-photo" />
           </div>
@@ -17,7 +19,11 @@ export default function AboutMe() {
           </p>
           <p>
             <i className="bi bi-envelope-fill"></i>{" "}
-            <a className="link" href="mailto:carnett.caleb@gmail.com">
+            <a
+              className="link"
+              target="_blank"
+              href="mailto:carnett.caleb@gmail.com"
+            >
               Carnett.caleb@gmail.com
             </a>
           </p>
@@ -25,6 +31,7 @@ export default function AboutMe() {
             <i className="bi bi-linkedin"></i>{" "}
             <a
               className="link"
+              target="_blank"
               href="https://www.linkedin.com/in/calebcarnett/"
             >
               in/calebcarnett
@@ -52,6 +59,24 @@ export default function AboutMe() {
             When I'm not coding I enjoy being outdoors, going on hikes, or
             playing pickleball with my wife.
           </p>
+          <div className="project-resume">
+            <a
+              href={Portfolio}
+              download
+              type="button"
+              className="btn btn-outline-dark btn-floating m-3 "
+            >
+              Projects
+            </a>
+            <a
+              href={resume}
+              download
+              type="button"
+              className="btn btn-outline-dark btn-floating  m-3  "
+            >
+              Resume
+            </a>
+          </div>
         </section>
       </div>
       <hr></hr>
