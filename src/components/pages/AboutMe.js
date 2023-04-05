@@ -32,7 +32,7 @@ export default function AboutMe() {
           </p>
         </div>
         <section className="about-section">
-          <h2 className="description">Hello, I'm Caleb</h2>
+          <h2 className="description">Hello, I'm Caleb Carnett</h2>
           <hr></hr>
           <div>
             <h4>Full Stack Developer</h4>
