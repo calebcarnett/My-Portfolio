@@ -9,8 +9,8 @@
   .profile-photo {
     margin: 10px;
     width:40vh;
-    border-radius: 50%;
-    content: url(../images/headshot.png);
+    border-radius: 30%;
+    content: url(../images/Wedding\ headshot.jpg);
     transition: transform .4s;
     box-shadow: 3px 3px 13px -7px rgba(0,0,0,0.82);
 
