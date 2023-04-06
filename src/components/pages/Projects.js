@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/styles/styles.css";
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <div>
       <h2 className="h1-responsive font-weight-bold text-center my-4">
@@ -13,11 +13,15 @@ export default function Portfolio() {
         <div className="col">
           <div className="card">
             <div className="view overlay">
-              <img
-                className="card-img-top img-fluid cool-beans zoom"
-                alt="Card image cap"
-              />
-              <a href="#!">
+              <a
+                target="_blank"
+                href="https://cool-beans-ecommerce.herokuapp.com/"
+              >
+                <img
+                  className="card-img-top img-fluid cool-beans zoom"
+                  alt="Card image cap"
+                />
+
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -25,11 +29,16 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">Cool-Beans E-commerce</h4>
               <p className="card-text">
-                Cool-Beans is a full-stack application built with React,
-                Express, MongoDB, and Node.js. Our site provides a seamless
-                shopping experience for coffee lovers who want to buy
-                high-quality beans from the comfort of their own home.
+                Designed to provide coffee lovers with the convenience of
+                shopping for premium quality beans from the comfort of their own
+                home. Our site is fully equipped with user-friendly features,
+                including the ability to browse and add items to your cart, read
+                and leave reviews, and securely checkout with ease.
               </p>
+              <h6>
+                Technologies used: React, Express, MongoDB, and Node.js Stripe
+                API, FormSpree API
+              </h6>
               <a
                 type="button"
                 target="_blank"
@@ -52,11 +61,11 @@ export default function Portfolio() {
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">
-              <img
-                className="card-img-top img-fluid pawfriends zoom"
-                alt="Card image cap"
-              />
-              <a href="#!">
+              <a target="_blank" href="https://pawfriends.herokuapp.com/">
+                <img
+                  className="card-img-top img-fluid pawfriends zoom"
+                  alt="Card image cap"
+                />
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -64,9 +73,17 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">PawFriends</h4>
               <p className="card-text">
-                PawFriends is a MVC full stack application where users can
-                upload/delete and view other rescued animals posted by users.
+                PawFriends provides a platform for individuals to post and
+                discover rescued pets, fostering the opportunity for these
+                animals to find loving forever homes. This valuable resource not
+                only connects pets with new families, but also offers a chance
+                for individuals to make a positive impact by giving a rescued
+                animal a second chance at life.
               </p>
+              <h6>
+                Technologies used: MySQL, Sequelize, MVC Design, Handlebars.js,
+                Express.js, Node.js
+              </h6>
               <a
                 type="button"
                 target="_blank"
@@ -89,11 +106,14 @@ export default function Portfolio() {
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">
-              <img
-                className="card-img-top img-fluid movienight zoom"
-                alt="Card image cap"
-              />
-              <a href="#!">
+              <a
+                target="_blank"
+                href="https://calebcarnett.github.io/Movie-Search-Application"
+              >
+                <img
+                  className="card-img-top img-fluid movienight zoom"
+                  alt="Card image cap"
+                />
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -101,9 +121,17 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">Movie Night</h4>
               <p className="card-text">
-                Movie Night is a Javascript front-end application created using
-                Youtube and OMDB API's.
+                Elevate your movie-watching experience with our innovative
+                application. Our user-friendly platform allows you to easily
+                search for any movie and access its trailer and interesting
+                facts. Whether you're a casual movie-goer or simply love
+                discovering new films, our application is the perfect tool to
+                expand your cinematic knowledge and find your next favorite
+                movie.
               </p>
+              <h6>
+                Technologies used: Javascript, HTML, CSS, Youtube API, OMDB API
+              </h6>
               <a
                 type="button"
                 target="_blank"
@@ -135,9 +163,12 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">Note Taker</h4>
               <p className="card-text">
-                This application uses Express.js and will save and retrieve note
-                data from a JSON file.
+                With this platform, you can effortlessly create and store notes,
+                as well as access them at any time. Our application's
+                user-friendly interface allows for easy navigation and
+                organization of your notes.
               </p>
+              <h6>Technologies used: Express.js, Javascript</h6>
               <a
                 type="button"
                 target="_blank"
@@ -161,11 +192,14 @@ export default function Portfolio() {
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">
-              <img
-                className="card-img-top img-fluid weather zoom"
-                alt="Card image cap"
-              />
-              <a href="#!">
+              <a
+                target="_blank"
+                href="https://calebcarnett.github.io/Weather-App/"
+              >
+                <img
+                  className="card-img-top img-fluid weather zoom"
+                  alt="Card image cap"
+                />
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -173,9 +207,12 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">Weather App</h4>
               <p className="card-text">
-                Front end application using a third party API to retrieve the
-                local weather. Technologies used: Javscript, API, HTML, and CSS.
+                Stay up-to-date with the latest weather information for any city
+                with our advanced weather viewing application. This
+                user-friendly platform provides real-time updates on the current
+                temperature and more.
               </p>
+              <h6>Technologies used: Javscript, Weather API, HTML, and CSS.</h6>
               <a
                 type="button"
                 target="_blank"
@@ -198,11 +235,15 @@ export default function Portfolio() {
         <div className="col mb-4">
           <div className="card">
             <div className="view overlay">
-              <img
-                className="card-img-top img-fluid codequiz"
-                alt="Card image cap"
-              />
-              <a href="#!">
+              <a
+                target="_blank"
+                href="https://calebcarnett.github.io/Quiz-Game/"
+              >
+                <img
+                  className="card-img-top img-fluid codequiz"
+                  alt="Card image cap"
+                />
+
                 <div className="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -210,9 +251,11 @@ export default function Portfolio() {
             <div className="card-body">
               <h4 className="card-title">Code Quiz</h4>
               <p className="card-text">
-                Quiz game that features dynamically updated HTML and CSS powered
-                by JavaScript
+                This quiz game allows users to test their knowledge with a range
+                of javascript questions while keeping track of their high score,
+                elapsed time, and penalties for incorrect answers.
               </p>
+              <h6>Technologies used: Javascript, HTML, CSS</h6>
               <a
                 type="button"
                 target="_blank"

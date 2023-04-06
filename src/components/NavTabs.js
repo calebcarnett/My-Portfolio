@@ -31,26 +31,22 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="#AboutMe"
               onClick={() => handlePageChange("AboutMe")}
               className={
-                currentPage === "AboutMe" ? "nav-link active" : "nav-link"
+                currentPage === "Home" ? "nav-link active" : "nav-link"
               }
             >
               About
             </a>
           </li>
+          <a
+            href="/#Projects"
+            type="button"
+            className="btn btn-outline-dark btn-floating m-3 "
+          >
+            Projects
+          </a>
           <li className="nav-item">
             <a
-              href="#Portfolio"
-              onClick={() => handlePageChange("Portfolio")}
-              className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-              }
-            >
-              Portfolio
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              href="#contact"
+              href="/contact"
               onClick={() => handlePageChange("Contact")}
               className={
                 currentPage === "Contact" ? "nav-link active" : "nav-link"

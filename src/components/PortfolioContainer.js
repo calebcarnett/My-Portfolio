@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
 import AboutMe from "./pages/AboutMe";
-import Portfolio from "./pages/Portfolio";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./elements/Footer";
 import "../styles/styles/styles.css";
@@ -13,8 +13,8 @@ export default function PortfolioContainer() {
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
-    if (currentPage === "Portfolio") {
-      return <Portfolio />;
+    if (currentPage === "Projects") {
+      return <Projects />;
     }
     return <Contact />;
   };

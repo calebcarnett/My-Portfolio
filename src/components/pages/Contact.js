@@ -26,7 +26,7 @@ function Contact() {
         directly.
       </p>
 
-      <div className="row">
+      <div className="row m-3">
         <div className="col-md-9 mb-md-0 mb-5">
           <form
             id="contact-form"

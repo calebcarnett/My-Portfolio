@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/styles/styles.css";
 import resume from "../../styles/images/calebsresume.pdf";
-import Portfolio from "./Portfolio";
+
 export default function AboutMe() {
   return (
     <div>
@@ -60,14 +60,13 @@ export default function AboutMe() {
             playing pickleball with my wife.
           </p>
           <div className="project-resume">
-            <a
-              href={Portfolio}
-              download
+            {/* <a
+              href="/Projects"
               type="button"
               className="btn btn-outline-dark btn-floating m-3 "
             >
               Projects
-            </a>
+            </a> */}
             <a
               href={resume}
               download
@@ -80,7 +79,7 @@ export default function AboutMe() {
         </section>
       </div>
       <hr></hr>
-      <p className="text-center">A few of my skills.</p>
+      <p className="text-center mt-5">A few of my skills.</p>
       <div className="skillsGrid">
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
