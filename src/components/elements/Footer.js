@@ -8,6 +8,7 @@ export default function Footer() {
       <div className="container p-4">
         <section className="mb-4">
           <a
+            target="_blank"
             className="btn btn-outline-dark btn-floating m-1"
             href="https://www.linkedin.com/in/calebcarnett/"
             role="button"
@@ -16,6 +17,7 @@ export default function Footer() {
           </a>
 
           <a
+            target="_blank"
             className="btn btn-outline-dark btn-floating m-1"
             href="https://github.com/calebcarnett"
             role="button"
@@ -24,6 +26,7 @@ export default function Footer() {
           </a>
 
           <a
+            target="_blank"
             className="btn btn-outline-dark btn-floating m-1"
             href="mailto:carnett.caleb@gmail.com"
             role="button"
