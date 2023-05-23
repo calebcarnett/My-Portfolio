@@ -8,8 +8,7 @@ function Contact() {
     return (
       <div className="thanks">
         <h1>
-          Thank you for reaching out!<br></br>To go back to the home page click{" "}
-          <a href="/home">Me</a>
+          Thank you for reaching out!<br></br>Your messsage has been sent.
         </h1>
         ;
       </div>
