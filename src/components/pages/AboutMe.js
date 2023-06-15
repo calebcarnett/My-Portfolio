@@ -55,10 +55,6 @@ export default function AboutMe() {
               can continue to apply my expertise through hands-on projects.
             </p>
           </div>
-          <p>
-            When I'm not coding I enjoy being outdoors, going on hikes, or
-            playing pickleball with my wife.
-          </p>
           <div className="project-resume">
             {/* <a
               href="/Projects"

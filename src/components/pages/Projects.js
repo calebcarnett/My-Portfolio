@@ -9,9 +9,9 @@ export default function Projects() {
       </h2>
       <hr></hr>
 
-      <div className="row  row-cols-1 row-cols-md-2 row-cols-lg-2 m-2 projects">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 m-2 projects">
         <div className="col">
-          <div className="card">
+          <div className="card project-cards">
             <div className="view overlay">
               <a
                 target="_blank"
@@ -59,7 +59,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="col mb-4">
-          <div className="card">
+          <div className="card project-cards">
             <div className="view overlay">
               <a target="_blank" href="https://pawfriends.herokuapp.com/">
                 <img
@@ -104,7 +104,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="col mb-4">
-          <div className="card">
+          <div className="card project-cards">
             <div className="view overlay">
               <a
                 target="_blank"
@@ -145,130 +145,6 @@ export default function Projects() {
                 target="_blank"
                 className="btn btn-outline-dark btn-floating m-1"
                 href="https://github.com/calebcarnett/Movie-Search-Application"
-              >
-                Code Repository
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div className="card">
-            <div className="view overlay">
-              <img
-                className="card-img-top takenotes img-fluid zoom"
-                alt="Card image cap"
-              />
-            </div>
-
-            <div className="card-body">
-              <h4 className="card-title">Note Taker</h4>
-              <p className="card-text">
-                With this platform, you can effortlessly create and store notes,
-                as well as access them at any time. Our application's
-                user-friendly interface allows for easy navigation and
-                organization of your notes.
-              </p>
-              <h6>Technologies used: Express.js, Javascript</h6>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://takenotes.herokuapp.com/"
-              >
-                Live Site
-              </a>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://github.com/calebcarnett/Take-Notes"
-              >
-                Code Repository
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="col mb-4">
-          <div className="card">
-            <div className="view overlay">
-              <a
-                target="_blank"
-                href="https://calebcarnett.github.io/Weather-App/"
-              >
-                <img
-                  className="card-img-top img-fluid weather zoom"
-                  alt="Card image cap"
-                />
-                <div className="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <div className="card-body">
-              <h4 className="card-title">Weather App</h4>
-              <p className="card-text">
-                Stay up-to-date with the latest weather information for any city
-                with our advanced weather viewing application. This
-                user-friendly platform provides real-time updates on the current
-                temperature and more.
-              </p>
-              <h6>Technologies used: Javscript, Weather API, HTML, and CSS.</h6>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://calebcarnett.github.io/Weather-App/"
-              >
-                Live Site
-              </a>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://github.com/calebcarnett/Weather-App"
-              >
-                Code Repository
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col mb-4">
-          <div className="card">
-            <div className="view overlay">
-              <a
-                target="_blank"
-                href="https://calebcarnett.github.io/Quiz-Game/"
-              >
-                <img
-                  className="card-img-top img-fluid codequiz"
-                  alt="Card image cap"
-                />
-
-                <div className="mask rgba-white-slight"></div>
-              </a>
-            </div>
-
-            <div className="card-body">
-              <h4 className="card-title">Code Quiz</h4>
-              <p className="card-text">
-                This quiz game allows users to test their knowledge with a range
-                of javascript questions while keeping track of their high score,
-                elapsed time, and penalties for incorrect answers.
-              </p>
-              <h6>Technologies used: Javascript, HTML, CSS</h6>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://calebcarnett.github.io/Quiz-Game/"
-              >
-                Live Site
-              </a>
-              <a
-                type="button"
-                target="_blank"
-                className="btn btn-outline-dark btn-floating m-1"
-                href="https://github.com/calebcarnett/Quiz-Game"
               >
                 Code Repository
               </a>
