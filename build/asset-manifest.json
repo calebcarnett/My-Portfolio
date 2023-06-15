@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%7BMy-Portfolio%7D/static/css/main.066a2982.css",
+    "main.js": "/%7BMy-Portfolio%7D/static/js/main.61ddbf27.js",
+    "static/media/pawfriends.png": "/%7BMy-Portfolio%7D/static/media/pawfriends.47f17a16825d22df795c.png",
+    "static/media/Movie-Application.png": "/%7BMy-Portfolio%7D/static/media/Movie-Application.7dc214c4fa141e44a7cf.png",
+    "static/media/Wedding headshot.jpg": "/%7BMy-Portfolio%7D/static/media/Wedding headshot.0d7aa5d75585f3dfd3ec.jpg",
+    "static/media/coolbeans.png": "/%7BMy-Portfolio%7D/static/media/coolbeans.6b099117957fab3a7ef1.png",
+    "static/media/bootstrap-icons.woff?": "/%7BMy-Portfolio%7D/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/%7BMy-Portfolio%7D/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/calebsresume.pdf": "/%7BMy-Portfolio%7D/static/media/calebsresume.c065cd77ea33737a9be7.pdf",
+    "index.html": "/%7BMy-Portfolio%7D/index.html",
+    "main.066a2982.css.map": "/%7BMy-Portfolio%7D/static/css/main.066a2982.css.map",
+    "main.61ddbf27.js.map": "/%7BMy-Portfolio%7D/static/js/main.61ddbf27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066a2982.css",
+    "static/js/main.61ddbf27.js"
+  ]
+}
